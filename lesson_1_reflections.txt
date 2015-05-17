@@ -1,0 +1,12 @@
+using Diff to see the changes made between files allows a user to quickly find changes that may have been unwanted. It also enables referting back to versions that previously worked. This is espesually useful with large files.
+- Having easy access to earlier versions and the entire history of a file would make me a more efficient programmer in the long term by saving me time and allowing me to reuse versions of code for other uses.
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A: The pros are that you don't end up with countless versions to weed through when trying to find a specific changed. The cons are that you don't have autosaved versions that you could use in case of data loss.
+Q: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: The difference is dependent on the type of files being saved. For a wiki, every change should be tracked. For a google doc, which auto-saves individual docs, it doesn't make sense to group with other docs.
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Git log can be used to find the commit id that can then be used to capare a previous commit with that commit using git diff id1 id2
+Q: How might using version control make you more confident to make changes that could break something?
+A: having previous versions that I can revert to or use to compare changes would allow me to confidently make changes and experiment with my code
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: comparing commits
