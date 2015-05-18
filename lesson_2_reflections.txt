@@ -4,3 +4,7 @@ Q: How is the staging area different from the working directory and the reposito
 A: staging area is an in-between from the working directory and the repository. It allows for a place to hold potential commits prior to committing them. This is a good way to prevent accidental commits.
 Q: How can you use the staging area to make sure you have one commit per logical change?
 A: Stage each logical change and then commit the change.
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Branches would be a great way to experiement with new ideas without interfering with the flow of development on the main project.
+Q: How do the diagrams help you visualize the branch structure?
+A: Diagrams show a visual representation of which branches are being used and what they are being used for and could aid in combining branches.
